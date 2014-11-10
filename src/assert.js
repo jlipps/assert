@@ -324,4 +324,4 @@ assert.arrayOf = arrayOf;
 assert.structure = structure;
 
 
-export {assert}
+export default assert
