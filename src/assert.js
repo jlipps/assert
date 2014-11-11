@@ -4,6 +4,8 @@
 // - simplify/humanize error messages
 // - throw when invalid input (such as odd number of args into assert.argumentTypes)
 
+import 'traceur/bin/traceur-runtime';
+
 var POSITION_NAME = ['', '1st', '2nd', '3rd'];
 function argPositionName(i) {
   var position = (i / 2) + 1;
